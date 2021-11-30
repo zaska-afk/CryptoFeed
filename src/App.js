@@ -6,8 +6,11 @@ import CurrencyConverter from "./components/CurrencyConverter";
 function App() {
   return (
     <div className="app">
+      <h1>Crypto Feed</h1>
+      <div className="app-wrapper">
       <CurrencyConverter />
       <NewsFeed />
+      </div>
     </div>
   );
 }

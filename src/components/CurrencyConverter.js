@@ -107,7 +107,11 @@ function CurrencyConverter() {
           Convert
         </button>
       </div>
-      <ExchangeRate exchangeRate={{ exchangeRate }} />
+      <ExchangeRate
+        exchangeRate={exchangeRate}
+        chosenPrimaryCurrency={chosenPrimaryCurrency}
+        chosenSecondaryCurrency={chosenSecondaryCurrency}
+      />
     </div>
   );
 }
